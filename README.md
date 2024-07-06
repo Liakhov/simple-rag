@@ -26,16 +26,16 @@ This project implements a RAG system that utilizes local document storage and th
 ```
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt;
+pip install -r requirements.txt
 ```
 
-3. Place your Markdown document in the `data` folder.
+3. Place your `Markdown document` in the `data` folder.
 
 4. Create an `.env` file in the root directory of the project and add the following:
 
 ```
-DOCUMENT_NAME=your_document_name.md
 MODEL_NAME=your_chosen_model
+DOCUMENT_NAME=your_document_name.md
 ```
 Replace `your_document_name.md` with the name of your document file, and `your_chosen_model` with the Ollama model you want to use.
 
