@@ -1,0 +1,8 @@
+langchain
+langchain_community
+langchain[docarray]
+docarray
+unstructured
+markdown
+python-dotenv
+ipykernel
